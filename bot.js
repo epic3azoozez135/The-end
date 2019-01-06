@@ -848,20 +848,7 @@ client.on('message', message => {
     }
 });
 
-client.on('message', msg => {
-  if(msg.content === 'هلا')
-  msg.reply('هلا والله')
-});
 
-client.on('message', msg => {
-  if(msg.content === 'الو')
-  msg.reply('هلا')
-});
-
-client.on('message', msg => {
-  if(msg.content === 'مرحبا')
-  msg.reply('مرحبا')
-});
 
 client.on('messageDelete', message => {
  
